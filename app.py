@@ -9,8 +9,10 @@ import plotly.graph_objects as go
 print("Hello Learners")
 
 # Reading the data from a CSV file URL
-url = "https://path/to/your/csv/file.csv"  # Replace this with the actual URL of your CSV file
-df = pd.read_csv(url)
+# Reading the data from the raw URL
+url = "https://raw.githubusercontent.com/babban52/Streamlit-Adidas-App/main/Adidas.xlsx"
+df = pd.read_excel(url)
+
 
 # Configure Streamlit page
 st.set_page_config(layout="wide")
