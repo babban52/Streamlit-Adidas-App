@@ -1,0 +1,7 @@
+streamlit
+pandas
+datetime
+PIL (Pillow)
+plotly
+plotly.express
+plotly.graph_objects
