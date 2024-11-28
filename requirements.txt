@@ -1,7 +1,7 @@
 streamlit
 pandas
 datetime
-PIL (Pillow)
+Pillow
 plotly
 plotly.express
 plotly.graph_objects
