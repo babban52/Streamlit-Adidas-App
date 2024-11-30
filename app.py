@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 
 # Load the data
-df = pd.read_excel("Adidas.xlsx")
+df = pd.read_excel("https://github.com/babban52/Streamlit-Adidas-App/raw/main/Adidas.xlsx")
 
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 image = Image.open('adidas-logo.jpg')
