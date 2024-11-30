@@ -51,10 +51,6 @@ This repository contains a **Streamlit-based interactive sales dashboard** and i
 - A supervised learning model for predicting continuous variables.
 - Learns the relationship between selected features and the target variable.
 
-### **Evaluation Metrics**
-- **Mean Squared Error (MSE):** Measures average squared difference between actual and predicted values.
-- **R² Score:** Indicates the proportion of variance explained by the model.
-
 ---
 
 ## How to Use the Application
