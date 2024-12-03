@@ -220,4 +220,5 @@ input_df = pd.DataFrame([input_data])
 
 if st.button("Predict"):
     prediction = model.predict(input_df)[0]
-    st.write(f"### Predicted {target}: {prediction:.2f}")
+    prediction_in_dollars = prediction / 100  # Assuming the data is in cents
+    st.write(f"### Predicted {target}: ${prediction_in_dollars:,.2f}")
